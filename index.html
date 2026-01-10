@@ -1925,6 +1925,8 @@ async function loadMenu() {
 
 loadMenu();
 </script>
+	
+	<script>
 const { data } = await supabaseClient
   .from("categories")
   .select("*")
@@ -1939,7 +1941,7 @@ data.forEach(cat => {
     </a>
   `;
 });
-
+	</script>
 
 
 </div><script data-cfasync="false" src="js/email-decode.min.js"></script><script>
