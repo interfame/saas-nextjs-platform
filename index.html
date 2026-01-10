@@ -1855,6 +1855,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script type="text/javascript" src="js/main.min.js"></script>
 
 
+<h1 id="site-name"></h1>
+<p id="header-text"></p>
+	
+<!--START-->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+  const supabaseUrl = "https://jwfesxzzbehzeytwcbgz.supabase.co";
+  const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3ZmVzeHp6YmVoemV5dHdjYmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc5Mjg2NDMsImV4cCI6MjA4MzUwNDY0M30.SLoar0LgTTOlkB2gVlJ-IU9YBh0uygqKVb1pBpKtBWo";
+
+  const supabase = window.supabase.createClient(
+    supabaseUrl,
+    supabaseKey
+  );
+</script>
+
+<script>
+async function loadSiteSettings() {
+  const { data, error } = await supabase
+    .from("site_settings")
+    .select("*")
+    .limit(1)
+    .single();
+
+  if (error) {
+    console.error(error);
+    return;
+  }
+
+  document.getElementById("site-name").innerText = data.site_name;
+  document.getElementById("header-text").innerText = data.header_text;
+}
+
+loadSiteSettings();
+</script>
+
 
 <!--
 <script>
