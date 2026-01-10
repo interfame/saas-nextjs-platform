@@ -1868,7 +1868,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script>
   const supabaseUrl = "https://jwfesxzzbehzeytwcbgz.supabase.co";
-  const supabaseKey = "sb_publishable_nRKuPc-gykWDLhEfpufiLA_HBXZa0SV";
+  const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3ZmVzeHp6YmVoemV5dHdjYmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc5Mjg2NDMsImV4cCI6MjA4MzUwNDY0M30.SLoar0LgTTOlkB2gVlJ-IU9YBh0uygqKVb1pBpKtBWo";
 
   const supabase = window.supabase.createClient(
     supabaseUrl,
@@ -1884,10 +1884,12 @@ async function loadSiteSettings() {
     .limit(1)
     .single();
 
-  if (error) {
-    console.error(error);
-    return;
-  }
+if (error) {
+  document.getElementById("header-text").innerText =
+    "❌ Supabase error: " + error.message;
+  console.error(error);
+  return;
+}
 
   document.getElementById("site-name").innerText = data.site_name;
   document.getElementById("header-text").innerText = data.header_text;
