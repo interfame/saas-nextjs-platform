@@ -1946,6 +1946,43 @@ data.forEach(cat => {
   `;
 });
 	</script>
+	<script>
+async function loadCategories() {
+  const container = document.getElementById("categories-menu");
+
+  if (!container) {
+    console.error("❌ categories-menu not found");
+    return;
+  }
+
+  const { data, error } = await supabaseClient
+    .from("categories")
+    .select("*")
+    .eq("visible", true)
+    .order("order");
+
+  console.log("CATEGORIES:", data);
+
+  if (error || !data || data.length === 0) {
+    container.innerHTML = "<p>No categories</p>";
+    return;
+  }
+
+  container.innerHTML = "";
+
+  data.forEach(cat => {
+    container.innerHTML += `
+      <a href="/category/${cat.slug}">
+        ${cat.icon_url ? `<img src="${cat.icon_url}" />` : ""}
+        <span>${cat.title}</span>
+      </a>
+    `;
+  });
+}
+
+document.addEventListener("DOMContentLoaded", loadCategories);
+</script>
+
 
 
 </div><script data-cfasync="false" src="js/email-decode.min.js"></script><script>
