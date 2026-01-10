@@ -128,6 +128,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 												</div>
 												<div class="col-lg-3">
 													<ul class="hyper-main-menu">
+														<div id="categories-menu"></div>
+
 														<li>
 															<a href="web-based-car-reservation-system">
 																<img src="images/car-reservation.svg" width="30" height="30" alt="Car Reservation" loading="lazy"> Car Reservation 
@@ -1922,6 +1924,21 @@ async function loadMenu() {
 
 loadMenu();
 </script>
+const { data } = await supabaseClient
+  .from("categories")
+  .select("*")
+  .eq("visible", true)
+  .order("order");
+
+data.forEach(cat => {
+  container.innerHTML += `
+    <a href="/category/${cat.slug}">
+      <img src="${cat.icon_url}">
+      <span>${cat.title}</span>
+    </a>
+  `;
+});
+
 
 
 </div><script data-cfasync="false" src="js/email-decode.min.js"></script><script>
