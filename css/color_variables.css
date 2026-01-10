@@ -1,0 +1,17 @@
+:root { 
+	--theme-mainColor: #012a5e;
+	--theme-singleColor: #9c6ade;
+	--theme-multiColor: #ff5a00;
+	--theme-shadowMain: #012a5e4f;
+	--theme-shadowSingle: #9c6ade70;
+	--theme-shadowMulti: #ff5a0069;
+	--theme-taxiColor: #FFC000;
+	--theme-shadowTaxi:#ffbb0321; 
+	--theme-courierColor: #bb0000;
+	--theme-shadowCourier:#bb000059;
+	--theme-btn: #012a5e;
+    --text-color: #000;
+    --gordita: 'Gordita';
+}
+
+

@@ -1,0 +1,2023 @@
+@media(min-width:1400px) {
+
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl,
+	.container-xxl {
+		max-width: 1320px;
+	}
+}
+
+@media(max-width:1400px) {
+	.card-hover-up-content-inner p {
+		font-size: 14px;
+		line-height: normal;
+	}
+
+	.dropdown::after {
+		right: -3px;
+	}
+}
+
+@media (min-width:1201px) and (max-width:1400px) {
+	.nav-link {
+		font-size: 15px !important;
+		padding: 10px 11px !important;
+	}
+
+	.pulse-new-animate {
+		bottom: 36px;
+	}
+}
+
+@media(max-width:1399px) {
+	.work-flow-list.mhealth-process.pharmacy-app-process::after {
+		height: 388px !important;
+	}
+
+	.work-flow-list.mhealth-process::after {
+		height: 359px !important;
+	}
+
+	.build-apps-ecommerce-niches li {
+		width: 48%;
+	}
+	.property-management-card-main .item {
+		min-height: 650px;
+	}
+}
+
+@media(max-width:1300px) {
+	.rush-new-tech-app-tabs ul.nav.nav-tabs.custm-4nav-tabs {
+		display: flex;
+		overflow-x: auto;
+		flex-wrap: inherit;
+		white-space: nowrap;
+	}
+}
+
+@media(max-width:1200px) {
+	.turo-clone-tech-stack li {
+		width: 15%;
+	}
+	.feature-whitelabel-main li {
+		width: 48%;
+	}
+
+	.pulse-new-animate {
+		bottom: 24px;
+	}
+
+	.rush-new-tech-app-tabs ul.custm-4nav-tabs li a {
+		padding: 10px 20px 10px 20px;
+	}
+
+	.delivery-timeline>li>.timeline-panel {
+		width: 44%;
+	}
+
+	.nl_home_container {
+		width: 100%;
+		height: 420px;
+		padding: 0;
+		background-image: unset;
+	}
+
+	.rush-apps-list li {
+		width: 32%;
+		margin-bottom: 15px;
+	}
+
+	.rush-app-tabs img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.rush-apps-list.three-row-app-list li {
+		width: 32%;
+	}
+
+	.new-web-roadmap li:nth-child(2n)::after {
+		bottom: 1%;
+	}
+
+	.new-web-roadmap li::after {
+		height: 49%;
+	}
+
+	.road-map-content {
+		margin-top: 262px;
+	}
+
+	.new-web-roadmap li {
+		height: 459px;
+	}
+
+	.hyper_banner_form {
+		padding: 25px;
+		border-radius: 5px;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.rush-gojek-clone-services .tab-content ul li {
+		width: 25%;
+		text-align: center;
+	}
+
+	.rush-tech-stacks li {
+		width: 23%;
+		margin-bottom: 20px;
+	}
+
+	.rush-loyal-list-second .rush-flex-list {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.rush-custom-margin {
+		margin-top: 40px;
+	}
+
+	.rush-custom-padd {
+		padding: 40px 0px;
+	}
+
+	.container {
+		max-width: 100%;
+	}
+
+	.gojek-clone-link {
+		font-size: 15px;
+	}
+}
+
+@media(max-width:1199px) {
+	.property-management-card-main .item {
+        min-height: 450px;
+    }
+}
+
+@media(max-width:1088px) {
+	.work-flow-list.mhealth-process.pharmacy-app-process::after {
+		height: 415px !important;
+	}
+}
+
+@media(max-width: 1072px) {
+	.work-flow-list.mhealth-process::after {
+		height: 387px !important;
+	}
+	.turo-clone-tech-stack li {
+        width: 19%;
+    }
+}
+
+@media(max-width: 1023px) {
+	.about-technologies .main {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+		margin-top: 40px;
+    }
+	.about-technologies .icon-block {
+        width: 50px;
+        height: 50px;
+    }
+	.about-technologies .icon-block img {
+        width: 70%;
+    }
+	.about-technologies .center-logo img {
+        max-width: 100px;
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+
+	.rush-onlyfans-benefits li {
+		width: 48%;
+		margin-bottom: 15px;
+	}
+
+	.rush-portfolio-app-details img {
+		margin: 0 auto;
+	}
+
+	.rush-portfolio-technologies li {
+		width: 31%;
+		margin-bottom: 11px;
+	}
+
+	.leading-cashapp-industry-wrap .leading-cashapp-industry-text {
+		font-size: 29px;
+		line-height: 31px;
+		margin-bottom: 15px;
+	}
+}
+
+
+@media(min-width: 993px) {
+	.responsvenav-header {
+		display: none;
+	}
+
+	.only-responsive-menu {
+		display: none;
+	}
+
+	.blog-wrap {
+		height: 100%;
+	}
+
+	#cards-slide .home-testimonial-main {
+		min-height: 420px;
+	}
+
+	.marketable-clone-app .home-testimonial-main {
+		min-height: 300px !important;
+	}
+}
+
+@media(min-width:993px) {
+	.about-roadmap-point {
+		display: none;
+	}
+}
+
+@media(max-width:992px) {
+	.key-feature-property-management .rush-flex-list li {
+		width: 48%;
+	}
+	.hide-glorius-moment-history {
+		display: none;
+	}
+	.majestic-feature-main li {
+		width: 32%;
+	}
+
+	.contactus-all-detail li {
+		width: 33%;
+	}
+
+	.contactus-all-detail {
+		width: 90%;
+	}
+
+	.accelerating-growth-vision li {
+		width: 32%;
+	}
+
+	.about-roadmap-top-inner {
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+		padding: 15px;
+	}
+
+	.about-accelerate-stats {
+		gap: 50px;
+	}
+
+	.about-roadmap-bottom-inner {
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+		padding: 15px;
+	}
+
+	.about-roadmap-bottom {
+		gap: 30px;
+	}
+
+	.about-roadmap-top {
+		gap: 30px;
+	}
+
+	.about-roadmap-middle svg {
+		display: none;
+	}
+
+	#cards-slide .owl-dots {
+		display: none !important;
+	}
+
+	.banner-text .rush-subheading {
+		text-align: center !important;
+	}
+
+	.firstsectionpadd {
+		padding-top: 154px !important;
+		background-image: url("../images/bannerbg2.png") !important;
+		background-size: 60%;
+		background-repeat: no-repeat;
+		background-position: top right;
+	}
+
+	.left-thanks {
+		width: 100%;
+	}
+
+	.thanks-calendly2 {
+		width: 100%;
+	}
+
+	#collapsibleNavbar .dropdown::after {
+		right: 10px;
+	}
+
+	p.pulse-new-animate {
+		display: none;
+	}
+
+	.industry-leading-caps li {
+		width: 31%;
+	}
+
+	ul.threads-key-feature li {
+		width: 49%;
+		margin-bottom: 20px;
+	}
+
+	.banner h1 {
+		font-size: 38px;
+	}
+
+	.full-width-faqs-tabing .nav.nav-tabs li {
+		width: 49%;
+		margin-bottom: 12px;
+	}
+
+	.full-width-faqs-tabing .nav-tabs a.gojek-clone-link {
+		background-color: #012a5e0a;
+		border: 0 !important;
+	}
+
+	.full-width-faqs-tabing .nav.nav-tabs {
+		width: 100%;
+		border-bottom: 0px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.uber-payment-gateway li {
+		width: 48%;
+		margin-bottom: 20px;
+	}
+
+	#uber-admin-panel .rush-apps-list li {
+		width: 49%;
+		margin-bottom: 15px;
+	}
+
+	.rush-apps-list.three-row-app-list li {
+		width: 49%;
+	}
+
+	#topheader {
+		display: none;
+	}
+
+	.refine-ev-software-wrap {
+		width: 100%;
+		margin: 0 0 0 auto;
+		text-align: center;
+	}
+
+	.refine-ev-software {
+		background-position: right center;
+		background-repeat: no-repeat;
+	}
+
+	.rush-business-cutting-edge-wrap {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.our-vision-wrap {
+		margin: 20px 00px;
+	}
+
+	.new-web-roadmap li {
+		height: auto;
+		width: 48%;
+		margin-bottom: 20px;
+	}
+
+	.new-web-roadmap li::after {
+		display: none;
+	}
+
+	.road-map-content {
+		margin: 0px;
+	}
+
+	.roadmap-icon {
+		position: relative;
+		margin: 20px 00px;
+	}
+
+	.new-web-roadmap li::before {
+		display: none;
+	}
+
+	.what-we-do .main-heading-wrap.mb-0.text-left {
+		text-align: center !important;
+		margin-top: 30px;
+	}
+
+	.about-us-banner .banner-text {
+		width: 100%;
+	}
+
+	.about-us-banner {
+		padding: 192px 00px 68px 00px;
+	}
+
+	.banner-check-list li {
+		text-align: left;
+	}
+
+	.rush-coirsera-process li {
+		width: 48%;
+		margin-top: 75px;
+	}
+
+	.taskrabbit-clone-app-developed-work-flex {
+		display: block;
+		padding: 30px;
+	}
+
+	.taskrabbit-clone-app-developed-work-customer {
+		width: 100%;
+		margin-bottom: 23px;
+	}
+
+	.multivendor-unique-features-app {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.taskrabbit-clone-app-developed-work-service-provider {
+		width: 100%;
+	}
+
+	.rush-multiple-integration-partners li {
+		width: 31%;
+		margin-bottom: 20px;
+	}
+
+	.rush-portfolio-app-details img {
+		margin: 0 auto;
+	}
+
+	.rush-new-portfolio-content {
+		width: 100%;
+		padding: 36px;
+		text-align: center;
+		order: 2;
+	}
+
+	.rush-app-stacks {
+		width: 100%;
+	}
+
+	.rush-portfolios-list-sec-wrap .rush-portfolio-app-details img {
+		width: 75px !important;
+		height: 75px;
+		position: relative;
+		margin-bottom: 10px;
+	}
+
+	.rush-app-stacks li {
+		width: 100%;
+		margin-bottom: 4px;
+	}
+
+	.rush-portfolio-mobiles-btns {
+		margin-top: 30px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.rush-portfolios-list-sec-wrap .rush-portfolio-app-details {
+		position: relative;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.rush-portfolio-img {
+		width: 100%;
+		order: 1;
+		height: auto;
+		padding: 30px;
+	}
+
+	.rush-new-tech-stacks li {
+		width: 31%;
+		margin-bottom: 20px;
+	}
+
+	.blog-wrap {
+		margin-bottom: 25px;
+	}
+
+	.p2pcashapp li {
+		width: 48%;
+		margin-bottom: 25px;
+	}
+
+	.cashapp-aims-content-wrap {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.cashapp-launch.rush-cashapp-custom-padd.pb-0 {
+		padding-bottom: 40px !important;
+	}
+
+	.cashapp-aims-content-wrap .themebtn-new {
+		margin: 26px auto 0 auto;
+	}
+
+	.offer-custom-cash-app-clone li {
+		width: 48%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.leading-cashapp-industry ul {
+		margin-top: 0;
+	}
+
+	.leading-cashapp-industry-wrap {
+		background: #FF04B2;
+		padding: 50px;
+		height: auto;
+		text-align: center;
+	}
+
+	.leading-cashapp-industry ul li {
+		width: 100%;
+		margin-top: 0 !important;
+		margin-left: 0 !important;
+		margin-bottom: 20px;
+	}
+
+	.leading-cashapp-industry ul li {
+		width: 100%;
+	}
+
+	.rush-cashapp-custom-padd {
+		padding: 60px 00px;
+	}
+
+	.cashapp-launch-content-wrap .themebtn-new {
+		margin: 20px auto 0 auto;
+	}
+
+	.cashapp-launch-content-wrap {
+		text-align: center;
+		margin-bottom: 26px;
+	}
+
+	.ride-loyality-img-center {
+		margin-bottom: 30px;
+	}
+
+	.rush-grocery-layouts-img-wrap {
+		margin: 30px 00px;
+	}
+
+	.rush-grocery-layouts-container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.on-demand-delivery-industry li {
+		width: 32%;
+		margin-bottom: 22px;
+	}
+
+	.ride-loyality-list li {
+		width: 48% !important;
+	}
+
+	.ondemand-drpodown .dropdown-content a {
+		padding: 6px 9px 7px 3px !important;
+		margin: 00px 20px;
+	}
+
+	.rush-new-development-process-icon-wrap {
+		position: relative;
+		left: 0;
+		top: 0;
+		margin: 0 auto 20px auto;
+	}
+
+	.rush-new-development-process-wrap .rush-subheading {
+		text-align: center;
+		margin-bottom: 7px;
+	}
+
+	.rush-new-development-process-wrap {
+		position: relative;
+		background: #fff;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.rush-new-development-process li {
+		margin-bottom: 19px;
+		width: 48%;
+	}
+
+	.rush-new-development-process ul {
+		margin-top: 28px;
+	}
+
+	.onlyfans-revenue-wrap {
+		text-align: center;
+		margin-bottom: 31px;
+	}
+
+	.rush-onlyfans-process li {
+		width: 48%;
+		margin-top: 66px;
+	}
+
+	.rush-onlyfans-benefits ul {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.rush-onlyfans-benefits .main-heading-wrap.mb-0.text-left {
+		text-align: center !important;
+	}
+
+	.onlyfans-opportunities .main-heading-wrap.mb-0.text-left {
+		text-align: center !important;
+		margin-top: 20px;
+	}
+
+	.rush-new-cta-sec-box {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.rush-new-cta-sec-button {
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.rush-new-cta-sec-wrap {
+		display: block;
+	}
+
+	.rush-app-panels .main-heading-wrap {
+		margin-top: 30px;
+	}
+
+	.rush-app-panels img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.banner-text {
+		text-align: center;
+		margin-top: 22px;
+	}
+
+	.rush-revenue .main-heading-wrap {
+		text-align: center;
+	}
+
+	.rush-success .main-heading-wrap {
+		text-align: center;
+	}
+
+	.rush-loyal-list-second .rush-flex-list li {
+		width: 48%;
+		margin-bottom: 20px;
+	}
+
+	.rush-rewards-wrap {
+		padding: 15px;
+	}
+
+	ul.hlc_four_list li {
+		width: 48%;
+	}
+
+	.testimonial {
+		width: 100%;
+	}
+
+	p.custom_padding_hlc {
+		padding: 20px 50px;
+	}
+
+	.card-column>div {
+		margin-bottom: 20px;
+	}
+
+	.testimonial_img {
+		height: 100px;
+		width: 100px;
+	}
+
+	.shadow-custom .rush-rewards-wrap {
+		height: 100%;
+	}
+
+	.nl_home_container {
+		margin-bottom: 50px;
+	}
+
+	.banner h1 {
+		font-size: 30px;
+	}
+
+	.rush-main-heading {
+		font-size: 28px;
+	}
+
+	.rush-rewards-text {
+		font-size: 36px;
+	}
+
+	.rush-rewards .rush-flex-list li {
+		width: 48%;
+	}
+
+	.rush-rewards-wrap {
+		padding: 25px 15px;
+	}
+
+	.rush-rewards .rush-flex-list li:nth-child(1),
+	.rush-rewards .rush-flex-list li:nth-child(2) {
+		margin-bottom: 20px;
+	}
+
+	.nl_home_container {
+		margin-bottom: 120px;
+		height: 230px;
+	}
+
+	ul.footer_list {
+		justify-content: flex-start;
+		gap: 30px;
+	}
+
+	ul.footer_list li {
+		width: 30%;
+	}
+}
+
+@media(max-width: 991px) {
+	.portfolio-app-main li {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.tabs-box-tech .nav-tabs-box-three {
+		width: 100%;
+	}
+
+	.new-stats-rush-main {
+		margin-bottom: 20px;
+	}
+
+	.whitelable-unmatched-wrap li {
+		width: 48%;
+	}
+
+	.card-flip-main li {
+		width: 49%;
+	}
+
+	.custom-cta-rush-wrap img {
+		display: none;
+	}
+
+	.gurpreet-ceo-cont {
+		text-align: center;
+	}
+
+	.nav-tabs-box-inner {
+		width: 32%;
+	}
+
+	.online-rental-flip-card-main li {
+		width: 48%;
+	}
+}
+
+@media(max-width: 900px) {
+	.about-roadmap-top-inner {
+		width: 42%;
+	}
+
+	.about-roadmap-bottom-inner {
+		width: 42%;
+	}
+}
+
+@media(max-width: 850px) {
+	.build-apps-ecommerce-niches li {
+		width: 100%;
+	}
+}
+
+@media(max-width: 800px) {
+	.contactus-all-detail {
+		width: 100%;
+	}
+}
+
+@media(max-width: 768px) {
+	.ubereats-tech-stack-main li {
+		width: 31%;
+	}
+	.compelling-instacart-app li {
+		width: 100%;
+	}
+	.property-management-card-main .item {
+        min-height: 380px;
+    }
+	.capture-escooter-app-cta{padding:20px 20px 20px 20px;}
+	.tailored-uber-clone-dev-sol-card {
+		padding: 20px 15px;
+	}
+	.banner-bg-cover {
+		padding: 20px 0 40px;
+	}
+
+	.about-us-inner {
+		padding: 20px 0 0;
+	}
+
+	.tabs-box-tech .nav.nav-tabs li {
+		width: 100% !important;
+	}
+
+	.kafka-process-flex-cont .kafka-process-flex-cont-inner {
+		width: 100%;
+	}
+
+	.kafka-process-flex-cont {
+		padding-right: 0px;
+	}
+
+	.majestic-feature-inner .rush-subheading {
+		text-align: center !important;
+	}
+
+	.majestic-feature-inner p {
+		text-align: center !important;
+	}
+
+	.majestic-feature-main li {
+		width: 49%;
+	}
+
+	.contact-us-pro-logos li {
+		width: 30%;
+		margin-bottom: 20px;
+	}
+
+	.nav-tabs-box-inner {
+		width: 48%;
+	}
+
+	.justify-center-gap {
+		gap: 20px;
+	}
+
+	.custom-cta-rush-wrap {
+		padding: 50px;
+	}
+
+	.new-thanks-suffescom-wrap {
+		display: block;
+		max-width: 100%;
+	}
+
+	.new-thanks-suffescom {
+		height: 100%;
+		display: block;
+		padding: 30px 0px;
+	}
+
+	.fourbtntabs .nav.nav-tabs li {
+		width: 50%;
+		margin-bottom: 10px;
+	}
+
+	.Rushcodelab-wrap-opensea {
+		padding: 20px;
+	}
+
+	.Rushcodelab-wrap-opensea ul {
+		padding-left: 0;
+		margin-top: 20px;
+	}
+
+	.delivery-timeline>li>.timeline-panel:before {
+		border-left-width: 0;
+		border-right-width: 15px;
+		left: -15px;
+		right: auto;
+	}
+
+	.delivery-timeline .rush-main-heading {
+		text-align: left;
+	}
+
+	.delivery-timeline>li>.timeline-panel:after {
+		border-left-width: 0;
+		border-right-width: 14px;
+		left: -14px;
+		right: auto;
+	}
+
+	.delivery-timeline>li>.timeline-badge {
+		left: 15px;
+		margin-left: 0;
+		top: 16px;
+	}
+
+	.delivery-timeline:before {
+		left: 40px;
+	}
+
+	.delivery-timeline>li>.timeline-panel {
+		float: right;
+		width: calc(100% - 90px);
+	}
+
+	.custm-4nav-tabs li {
+		width: 50% !important;
+	}
+
+	.custm-4nav-tabs li a {
+		font-size: 16px;
+	}
+
+	.features-scroll-nav-tabs {
+		padding-bottom: 12px;
+	}
+
+	.features-scroll-nav-tabs li {
+		width: 100% !important;
+	}
+
+	.equal-ht-list {
+		justify-content: space-between;
+	}
+
+	.equal-ht-list .rush-onlyfans-process-wrap {
+		width: 100%;
+	}
+
+	.threads-multiple-profile ul li {
+		text-align: left;
+	}
+
+	.banner h1 {
+		font-size: 30px;
+	}
+
+	.ride-loyality-list li {
+		width: 100% !important;
+	}
+
+	.rush-apps-list li {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.rush-gojek-clone-services-wrap img {
+		display: block;
+		margin: 0 auto 10px auto;
+	}
+
+	.rush-app-tabs img {
+		margin: 0 auto;
+		display: none;
+	}
+
+	#uber-admin-panel .rush-apps-list li {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.rush-apps-list.three-row-app-list li {
+		width: 100%;
+	}
+
+	section.Rushcodelab_banner {
+		padding: 56px 0 14px 00px;
+	}
+
+	.Rushcodelab_services_left ul {
+		padding: 0;
+	}
+
+	.Rushcodelab_banner_content {
+		padding: 0 0 37px 0px;
+		text-align: center;
+	}
+
+	.rush-listed-in li {
+		width: 48%;
+		margin-bottom: 20px;
+	}
+
+	.rush-shopify-development-services li {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.rush-gojek-clone-services.varied-rush-solutions .tab-content ul li {
+		width: 50%;
+		text-align: center;
+		margin: 0;
+	}
+
+	.rush-gojek-clone-services.varied-rush-solutions .nav.nav-tabs li {
+		width: auto;
+		text-align: center;
+	}
+
+	.rush-gojek-clone-services .tab-content {
+		padding: 23px;
+		text-align: center;
+	}
+
+	.rush-gojek-clone-services .tab-content .rush-subheading {
+		text-align: center;
+		font-size: 28px;
+		margin-bottom: 10px;
+	}
+
+	.rush-gojek-clone-services .tab-content ul li {
+		width: 50%;
+		text-align: center;
+	}
+
+	.rush-gojek-clone-services .nav.nav-tabs {
+		justify-content: space-between;
+		overflow-x: auto;
+		flex-wrap: inherit;
+	}
+
+	.gojek-clone-link {
+		font-size: 19px;
+		display: block;
+		min-width: max-content;
+		margin-right: 57px;
+		margin-bottom: 0;
+	}
+
+	.rush-gojek-clone-services .nav.nav-tabs li {
+		width: auto;
+		text-align: center;
+	}
+
+	.rush-gojek-clone-services.gojek-clone-app-services .nav.nav-tabs li {
+		width: auto;
+		text-align: center;
+	}
+
+	.rush-tech-stacks li {
+		width: 31%;
+		margin-bottom: 20px;
+	}
+
+	.custom-faq-wrap {
+		padding: 00px;
+	}
+
+	.shape-cashapp {
+		display: none;
+	}
+
+	.custom-faq-flex li {
+		width: 100%;
+	}
+
+	.rush-grocery-layouts-content {
+		text-align: center;
+	}
+
+	.on-demand-delivery-industry li {
+		width: 48%;
+		margin-bottom: 22px;
+	}
+
+	.ridesharing-customer-app-features ul {
+		margin-top: 25px;
+	}
+
+	.ridesharing-customer-app-features li {
+		width: 100%;
+	}
+
+	.hlc_partners_main li {
+		width: 32%;
+		margin-bottom: 20px;
+	}
+
+	.rush-software-solutions li {
+		width: 48%;
+		margin-bottom: 20px;
+	}
+
+	.key_features_list .themebtn {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.rush-custom-margin {
+		margin-top: 30px;
+	}
+
+	.rush-custom-padd {
+		padding: 30px 0px;
+	}
+
+	ul.footer_list li {
+		width: 47%;
+	}
+
+	.nl_home_container {
+		margin-bottom: 170px;
+		height: 190px;
+	}
+
+	.customwidth {
+		width: 100%;
+		margin: 0;
+	}
+
+	.hlc_card_content {
+		padding: 22px 14px;
+	}
+
+	.text_center_width h2 {
+		width: 100%;
+	}
+
+	.media-social {
+		justify-content: center;
+	}
+
+	.footer_logo {
+		text-align: center;
+		padding-right: 0;
+	}
+
+	.banner-text {
+		text-align: center;
+	}
+
+	.banner h1 {
+		margin-bottom: 10px;
+	}
+
+	.banner-text p {
+		margin-bottom: 20px;
+	}
+
+	.nl_home_container {
+		margin-bottom: 37px;
+		height: unset;
+		background-image: unset;
+	}
+
+	.main-heading-wrap {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	p.custom_padding_hlc {
+		padding: 20px 0px;
+	}
+
+	.nl_diff_box h4 {
+		font-size: 21px;
+	}
+
+	.nl_home_container {
+		margin-bottom: 0;
+	}
+
+	.custum-gap>div {
+		margin-bottom: 0;
+	}
+
+	ul.hlc_four_list li {
+		width: 100%;
+	}
+
+	ul.footer_list li {
+		text-align: center;
+		width: 100%;
+	}
+
+	.copy_right {
+		display: block;
+		text-align: center;
+	}
+
+	ul.terms_ui {
+		justify-content: center;
+		margin-top: 10px;
+	}
+
+	section.hlc_key_feature img {
+		margin-top: 30px;
+	}
+
+	.launch-nft-base-onlyfans-wrap {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.about-us-banner h1 {
+		font-size: 39px;
+		margin-bottom: 20px;
+		line-height: 50px;
+	}
+	#cookieConsent {
+		width:100%;
+		padding: 8px 8px 8px 8px;
+		display:none !important;
+	}
+	.cookies-content {
+        width: 100%;
+    }
+}
+
+@media(max-width:767px) {
+	.portfolio-us-inner-circle:before {
+		height: 200px;
+		width: 200px;
+	}
+	.features-first-content {
+		text-align: center;
+	}
+	.dating_tab {
+		width: 100% !important;
+	}
+
+	.dating_tabcontent {
+		width: 100%;
+	}
+
+	.build-apps-ecommerce-niches li {
+		width: 100%;
+	}
+
+	.build-apps-ecommerce-niches-inner {
+		height: 48px;
+	}
+
+	.contactus-all-detail li {
+		width: 48%;
+		margin-bottom: 20px;
+	}
+
+	.rush-app-tabs .nav.nav-tabs {
+		border-radius: 30px;
+		justify-content: center;
+	}
+
+	.about-accelerate-stats li {
+		width: 46%;
+	}
+
+	.about-us-inner-circle:before {
+		height: 200px;
+		width: 200px;
+	}
+
+	.accelerating-growth-vision li {
+		width: 100%;
+	}
+
+	.about-roadmap-bottom-inner {
+		width: 100%;
+	}
+
+	.about-roadmap-top-inner {
+		width: 100%;
+		margin: 0;
+	}
+
+	.rush-app-tabs .nav.nav-tabs.for-nav-tabs li {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.other-cta .custom-cta-rush-wrap {
+		padding: 20px 50px 20px 50px;
+	}
+}
+
+@media(max-width: 600px) {
+	.new-year-deal-main {
+		background-image: url(../images/christmas-rush-header2.webp) !important;
+		background: #bf0000;
+        background-size: contain;
+        background-repeat: no-repeat;
+	}
+	.santa-cap-logo .santa-cap {
+		width: 40px !important;
+		top: -19px !important;
+		right: -7px !important;
+	}
+	.ubereats-tech-stack-main li {
+		width: 47%;
+	}
+	.card-flip-main li {
+		width: 100%;
+	}
+
+	.benefits-remote-monitoring .whitelable-unmatched-wrap li {
+		width: 100%;
+	}
+	.portfolio-app-inner {
+		width: 100%;
+	}
+	.who-we-are-badges li{
+		width:48%;
+	}
+	.stats-success-inner {
+		padding: 1.5rem 0.5rem;
+	}
+	.rush-service-slide-card-main-height .industry-demands-inner {
+		margin: 10px;
+	}
+	.hear-clients-rush-inner {
+		flex-flow: row wrap;
+	}
+	.hear-clients-chauffer-height .hear-clients-rush-inner {
+		min-height: auto;
+	}
+	.rush-service-slide-card-main-height .industry-demands-inner {
+		min-height: 440px;
+	}
+}
+
+@media(max-width:576px) {
+	.tailored-uber-clone-dev-sol li {
+		width: 48%;
+	}
+	.tailored-uber-clone-dev-sol li a {
+		font-size: 14px;
+	}
+	.new-stats-rush-main {
+		background-position: bottom left;
+		padding: 40px 30px 40px;
+	}
+
+	.property-management-card-main .item {
+		min-height: 440px;
+		padding: 40px 10px 10px;
+	}
+
+	.key-feature-property-management .rush-flex-list li {
+		width: 100%;
+	}
+
+	.majestic-feature-main li {
+		width: 100%;
+	}
+
+	.whitelable-unmatched-wrap li {
+		width: 100%;
+	}
+
+	.feature-whitelabel-main li {
+		width: 100%;
+	}
+
+	.online-rental-flip-card-main li {
+		width: 100%;
+	}
+
+	.contactus-all-detail li {
+		width: 100%;
+	}
+
+	.contact-us-pro-logos li {
+		width: 48%;
+	}
+
+	.contact-us-banner {
+		padding: 50px 0 50px;
+	}
+
+	.types-online-dating-main li {
+		width: 100%;
+	}
+
+	.nav-tabs-box-inner {
+		width: 100%;
+	}
+
+	.about-accelerate-stats {
+		gap: 20px;
+	}
+
+	.other-cta .custom-cta-rush-wrap {
+		padding: 20px;
+	}
+
+	.custom-cta-rush-wrap a.themebtn-new {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.custom-cta-rush-wrap {
+		padding: 20px;
+	}
+
+	.left-thanks {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	.left-thanks .thanks-top {
+		margin: 0 auto 0px auto;
+	}
+
+	.left-thanks .new-thanks-suffescom-person-details {
+		padding: 0 15px 5px 15px;
+	}
+
+	.thanks-calendly2 {
+		margin-top: 10px;
+		padding: 0 0 0 0;
+	}
+
+	.left-thanks .suffesv3-sub-para {
+		font-size: 13px !important;
+		line-height: 20px !important;
+	}
+
+	.mob-txt-thanks {
+		display: block;
+	}
+
+	.desk-txt-thanks {
+		display: none;
+	}
+
+	.new-thanks-suffescom-main {
+		margin-top: 0 !important;
+		padding-top: 0 !important;
+	}
+
+	.left-thanks .new-thanks-suffescom-person-image::before {
+		width: 50px;
+		height: 50px;
+		top: 30px !important;
+		left: 62px;
+	}
+
+	.left-thanks .new-thanks-suffescom-person-image::after {
+		right: 18px;
+		bottom: 11px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.left-thanks .person-image-wrap img {
+		margin-top: 0;
+		width: 100px;
+		height: 100px;
+	}
+
+	.left-thanks .display-info h6 {
+		margin: 0;
+	}
+
+	.left-thanks .new-thanks-suffescom-person-details {
+		padding: 0 15px 5px 15px;
+	}
+
+	.left-thanks .person-info-wrap {
+		margin-top: 0;
+	}
+
+	.left-thanks .display-info:nth-child(1) {
+		margin-top: 0;
+	}
+
+	.left-thanks .display-info h6 {
+		margin: 0;
+	}
+
+	.left-thanks .display-info {
+		margin-top: 12px;
+	}
+
+	.left-thanks .thanks-top h1 {
+		font-size: 20px;
+	}
+
+	.display-info {
+		display: block;
+	}
+
+	.display-name {
+		margin-left: 0;
+	}
+
+	.featured-offered-card li {
+		transition: 0.5s ease-in-out;
+		cursor: pointer;
+		position: relative;
+		margin-bottom: 25px;
+		width: 100%;
+	}
+
+	.fixedhedercontact {
+		display: none !important;
+	}
+
+	.footer-main-contact-form #rush-popup {
+		width: 100%;
+	}
+
+	.footer-main-contact-form {
+		padding-top: 0;
+	}
+
+	.mobile-hide-noneImg {
+		display: none !important;
+	}
+
+	.industry-leading-caps li {
+		width: 48%;
+	}
+
+	ul.threads-key-feature li {
+		width: 100%;
+	}
+
+	.thread-clone-app-workflow li {
+		padding: 0;
+	}
+
+	.rush-success li {
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.main-heading-wrap {
+		margin-bottom: 22px;
+	}
+
+	.hlc_card_six {
+		margin-bottom: 0;
+	}
+
+	.full-width-faqs-tabing .nav.nav-tabs li {
+		width: 100%;
+		margin-bottom: 9px;
+	}
+
+	.uber-payment-gateway li {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.onlyfans-opportunities .themebtn-new.mt-20 {
+		margin-top: 12px;
+	}
+
+	.rush-app-tabs .nav.nav-tabs li {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	#uber-admin-panel .rush-apps-list li {
+		width: 100% !important;
+		margin-bottom: 15px;
+	}
+
+	.rush-apps-list.three-row-app-list li {
+		width: 100%;
+	}
+
+	.rush-apps-list li {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.hide-banner-mobile {
+		display: none !important;
+	}
+
+	.rush-new-tect-stacks-card ul li {
+		width: 100%;
+		padding-left: 5px;
+		margin: 5px 00px;
+	}
+
+	.rush-new-tect-stacks-card .rush-subheading {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.top-list {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.top-list li {
+		width: 48%;
+		text-align: center;
+	}
+
+	.new-web-roadmap li {
+		height: auto;
+		width: 100%;
+		margin-bottom: 00px;
+	}
+
+	.what-we-do {
+		padding: 40px 00px;
+	}
+
+	.about-us-banner {
+		padding: 171px 00px 34px 00px;
+	}
+
+	.hlc_key_feature .rush-main-heading {
+		font-size: 26px;
+	}
+
+	.banner-check-list li::after {
+		width: 22px;
+		height: 21px;
+		top: 2px;
+		padding: 4px;
+		font-size: 10px;
+	}
+
+	.banner-check-list li {
+		font-size: 16px;
+		line-height: 25px;
+		margin-bottom: 11px;
+		padding-left: 36px;
+	}
+
+	.rush-coirsera-process li {
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.rush-portfolio-technologies {
+		justify-content: space-between;
+	}
+
+	.taskrabbit-clone-app-developed-work-number {
+		position: relative;
+		left: 0;
+		top: 0;
+		margin: 0 auto 15px auto;
+	}
+
+	.taskrabbit-clone-app-developed-work-number p {
+		margin: 0 auto;
+		font-size: 26px !important;
+	}
+
+	.taskrabbit-clone-app-developed-work-number p {
+		margin: 0 auto;
+		font-size: 26px !important;
+	}
+
+	.taskrabbit-clone-app-developed-work-customer {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.taskrabbit-clone-app-developed-work-wrap .rush-subheading {
+		text-align: center;
+	}
+
+	.taskrabbit-clone-app-developed-work-heading {
+		width: 100%;
+		text-align: center;
+	}
+
+	.taskrabbit-clone-app-developed-work-wrap {
+		position: relative;
+		text-align: center;
+		padding-left: 0;
+		margin-bottom: 34px;
+	}
+
+	.multivendor-unique-features-wrap {
+		text-align: center;
+		background: #FBFAFF;
+		padding: 20px;
+	}
+
+	.multivendor-unique-features-content .rush-subheading {
+		text-align: center;
+	}
+
+	.multivendor-unique-features-icon {
+		position: relative;
+		left: auto;
+		top: auto;
+		text-align: center;
+		margin: 0 auto 16px auto;
+	}
+
+	.rush-multiple-integration-partners li {
+		width: 48%;
+		margin-bottom: 20px;
+	}
+
+	.themebtn-new {
+		display: block;
+		width: auto;
+		margin: 0 auto;
+		word-break: normal;
+		max-width: max-content;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	.rush-portfolio-technologies .rush-new-tech-stacks-wrap img {
+		width: auto;
+	}
+
+	.rush-portfolio-technologies li {
+		width: 31%;
+		margin-bottom: 11px;
+	}
+
+	.rush-new-portfolio-content {
+		padding: 18px;
+	}
+
+	.rush-portfolios-list-sec-wrap .rush-portfolio-app-details h4 {
+		font-size: 30px;
+	}
+
+	.rush-app-stacks p {
+		margin-top: 0 !important;
+	}
+
+	.rush-portfolio-app-details h5 {
+		font-size: 20px;
+		line-height: 27px;
+		margin-top: 10px;
+	}
+
+	.rush-portfolio-mobiles-btns img {
+		width: 148px;
+	}
+
+	.rush-new-portfolio-content p {
+		margin-top: 15px;
+	}
+
+	.shopify-development-services-wrap .rush-subheading {
+		text-align: center;
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
+
+	.shopify-development-services-wrap {
+		text-align: center;
+	}
+
+	.shopify-development-services-wrap {
+		text-align: center;
+		border-top: 4px solid var(--theme-mainColor);
+		border-left: 0;
+	}
+
+	.rush-gojek-clone-services.varied-rush-solutions .tab-content ul li {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+
+	.blog-wrap img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		object-position: top;
+	}
+
+	.nl_diff_box .rush-subheading {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.rush-new-tech-stacks li {
+		width: 48%;
+		margin-bottom: 20px;
+	}
+
+	.rush-gojek-clone-services .tab-content ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.rush-tech-stacks-wrap {
+		padding: 12px;
+	}
+
+	.rush-tech-stacks li {
+		width: 47%;
+		margin-bottom: 20px;
+	}
+
+	.offer-custom-cash-app-clone-icon {
+		width: 130px;
+		height: 130px;
+	}
+
+	.p2pcashapp li {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+
+	.offer-custom-cash-app-clone li {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.leading-cashapp-industry ul {
+		margin-top: 0;
+		width: 100%;
+	}
+
+	.leading-cashapp-industry-wrap .leading-cashapp-industry-text {
+		font-family: 'Gilroy-Bold';
+		font-size: 26px;
+		line-height: 32px;
+		margin-bottom: 10px;
+	}
+
+	.leading-cashapp-industry-wrap {
+		padding: 40px !important;
+	}
+
+	.rush-cashapp-custom-padd {
+		padding: 40px 00px;
+	}
+
+	.on-demand-delivery-industry .rush-software-solutions-wrap img {
+		height: auto;
+	}
+
+	.on-demand-delivery-industry li {
+		width: 100%;
+		margin-bottom: 22px;
+	}
+
+	.ride-loyality-wrap .rush-subheading {
+		text-align: center;
+		margin-bottom: 7px;
+	}
+
+	.ride-loyality-wrap {
+		position: relative;
+		padding-left: 83px;
+		background: #fff;
+		margin: 0px 00px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.ride-loyality-icon {
+		position: relative;
+		left: auto;
+		top: auto;
+		padding: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.ride-loyality-list li {
+		width: 100% !important;
+	}
+
+	p {
+		font-size: 16px !important;
+	}
+
+	.rush-new-development-process li {
+		margin-bottom: 19px;
+		width: 100%;
+	}
+
+	.rush-onlyfans-process-wrap {
+		text-align: center;
+		padding: 51px 30px 42px 20px;
+	}
+
+	.rush-onlyfans-process-wrap .rush-subheading {
+		text-align: center;
+	}
+
+	.rush-onlyfans-process-number {
+		position: absolute;
+		top: -31px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.rush-onlyfans-process li {
+		width: 100%;
+		margin-top: 56px;
+	}
+
+	.onlyfans-img-animation-wrap::after {
+		width: 100%;
+		height: 61%;
+	}
+
+	.rush-onlyfans-benefits-wrap .rush-subheading {
+		margin-left: 0;
+		font-size: 17px;
+		text-align: center;
+		margin-top: 8px;
+	}
+
+	.rush-onlyfans-benefits-wrap {
+		display: block;
+	}
+
+	.rush-onlyfans-benefits li {
+		width: 48%;
+		margin-bottom: 15px;
+	}
+
+	.rush-software-solutions li {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.container_wrap {
+		padding: 0;
+		box-shadow: none;
+		padding-top: 23px;
+	}
+
+	.hlc_partners_main li {
+		width: 48%;
+		margin-bottom: 20px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	.rush-custom-margin {
+		margin-top: 30px;
+	}
+
+	.rush-custom-padd {
+		padding: 30px 0px;
+	}
+
+	.text_center_width h2 {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media(max-width:480px) {
+	.rush-rewards .rush-flex-list li {
+		width: 100%;
+	}
+
+	.our-vision-image-wrap {
+		width: 200px;
+		height: 200px;
+	}
+
+	.rush-rewards .rush-flex-list li:nth-child(3),
+	.rush-rewards .rush-flex-list li:nth-child(4) {
+		margin-bottom: 20px;
+	}
+
+	.key_fansly_panel::before {
+		height: 88% !important;
+	}
+}
