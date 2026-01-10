@@ -1851,29 +1851,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   const supabaseUrl = "https://jwfesxzzbehzeytwcbgz.supabase.co";
   const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3ZmVzeHp6YmVoemV5dHdjYmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc5Mjg2NDMsImV4cCI6MjA4MzUwNDY0M30.SLoar0LgTTOlkB2gVlJ-IU9YBh0uygqKVb1pBpKtBWo";
 
-  const supabase = window.supabase.createClient(
+  const supabaseClient = supabase.createClient(
     supabaseUrl,
     supabaseKey
   );
+
+  console.log("CLIENT:", supabaseClient);
 </script>
+
 
 <script>
 async function loadSiteSettings() {
-  const { data, error } = await supabase
+  console.log("🚀 Running Supabase query...");
+
+  const result = await supabaseClient
     .from("site_settings")
-    .select("*")
-    .limit(1)
-    .single();
+    .select("*");
 
-if (error) {
+  console.log("RESULT:", result);
+
+  if (result.error) {
+    document.getElementById("header-text").innerText =
+      "❌ " + result.error.message;
+    return;
+  }
+
+  if (!result.data || result.data.length === 0) {
+    document.getElementById("header-text").innerText =
+      "⚠️ No data in site_settings";
+    return;
+  }
+
+  document.getElementById("site-name").innerText =
+    result.data[0].site_name;
+
   document.getElementById("header-text").innerText =
-    "❌ Supabase error: " + error.message;
-  console.error(error);
-  return;
-}
-
-  document.getElementById("site-name").innerText = data.site_name;
-  document.getElementById("header-text").innerText = data.header_text;
+    result.data[0].header_text;
 }
 
 loadSiteSettings();
