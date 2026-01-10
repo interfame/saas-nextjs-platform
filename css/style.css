@@ -10928,6 +10928,24 @@ section.rush-custom-padd.rush-onlyfans-process {
 	-ms-animation-iteration-count: infinite;
 	opacity: 1
 }
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.categories-grid a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.categories-grid img {
+  width: 32px;
+  height: 32px;
+}
 
 @keyframes animation1 {
 	0% {
@@ -10963,4 +10981,5 @@ section.rush-custom-padd.rush-onlyfans-process {
 		-webkit-transform: translateX(-50%) scale(.7);
 		transform: translateX(-50%) scale(.7)
 	}
+
 }
