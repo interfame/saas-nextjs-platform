@@ -108,7 +108,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<div class="drop-sec-padd">
 											<div class="row">
 												<div class="col-lg-3">
-													<ul class="hyper-main-menu">
+													<ul class="hyper-main-menu" id="main-menu">
 														<li>
 															<a href="uber-clone.html">
 															<img src="images/uber-clone-app.svg" width="30" height="30" alt="Uber Clone App" loading="lazy"> Uber Clone App
@@ -1891,6 +1891,38 @@ async function loadSiteSettings() {
 
 loadSiteSettings();
 </script>
+
+<script>
+async function loadMenu() {
+  const { data, error } = await supabaseClient
+    .from("menu_items")
+    .select("*")
+    .eq("visible", true)
+    .order("order", { ascending: true });
+
+  if (error) {
+    console.error("Menu error:", error);
+    return;
+  }
+
+  const menuEl = document.getElementById("main-menu");
+  menuEl.innerHTML = "";
+
+  data.forEach(item => {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+
+    a.href = item.url;
+    a.innerText = item.label;
+
+    li.appendChild(a);
+    menuEl.appendChild(li);
+  });
+}
+
+loadMenu();
+</script>
+
 
 </div><script data-cfasync="false" src="js/email-decode.min.js"></script><script>
     var site_url = "https://rushcodelab.com/";
