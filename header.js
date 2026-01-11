@@ -1,4 +1,4 @@
-console.log("HEADER JS CARGADO");
+alert("HEADER JS EJECUTÁNDOSE");
 
 import { supabase } from "./supabaseClient.js";
 
