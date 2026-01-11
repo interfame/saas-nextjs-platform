@@ -1,33 +1,30 @@
 console.log("HEADER JS CARGADO");
 
-import { supabase } from 'supabase/supabaseClient.js';
+import { supabase } from "./supabaseClient.js";
+
+console.log("HEADER JS CARGADO");
 
 async function loadMenu() {
-  const { data: categories } = await supabase
-    .from('menu_categories')
-    .select('id,title,menu_items(id,title,url)')
-    .order('order');
+  const { data, error } = await supabase
+    .from("menu_categories")
+    .select("*")
+    .order("position");
 
-  const ul = document.getElementById('dynamic-menu');
-  ul.innerHTML = '';
+  console.log("DATA:", data);
+  console.log("ERROR:", error);
 
-  categories.forEach(cat => {
-    const li = document.createElement('li');
-    li.className = 'nav-item dropdown';
-    li.innerHTML = `<a class="nav-link dropbtn">${cat.title}</a>`;
-    const div = document.createElement('div');
-    div.className = 'dropdown-content';
-    cat.menu_items.forEach(item => {
-      div.innerHTML += `<a href="${item.url}">${item.title}</a>`;
-    });
-    li.appendChild(div);
+  const ul = document.getElementById("dynamic-menu");
+  if (!ul) return;
+
+  ul.innerHTML = "";
+
+  data.forEach(cat => {
+    const li = document.createElement("li");
+    li.className = "nav-item";
+    li.innerHTML = `<a class="nav-link">${cat.title}</a>`;
     ul.appendChild(li);
   });
 }
 
-document.body.insertAdjacentHTML(
-  "afterbegin",
-  "<div style='color:red'>HEADER JS FUNCIONA</div>"
-);
-
 loadMenu();
+
