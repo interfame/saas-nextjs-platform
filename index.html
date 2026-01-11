@@ -64,14 +64,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a class="navbar-brand santa-cap-logo" href="/">
         <img src="images/rush-logo.png" class="img-fluid logo">
       </a>
-		<ul class="navbar-nav" id="dynamic-menu">
-  <li class="nav-item">
-    <a class="nav-link" style="color:red;font-weight:bold">
-      🔴 HEADER FUNCIONA
-    </a>
-  </li>
-</ul>
-
+		<ul class="navbar-nav" id="dynamic-menu"></ul>
     </nav>
   </div>
 </section>
@@ -1260,7 +1253,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    </svg>
 </a>
 -->
-	
+	<script>
+  document.getElementById("dynamic-menu").innerHTML = `
+    <li class="nav-item">
+      <a class="nav-link" style="color:green;font-weight:bold">
+        🟢 JS CARGANDO CORRECTAMENTE
+      </a>
+    </li>
+  `;
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script type="module" src="./header.js"></script>
 
