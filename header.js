@@ -1,4 +1,6 @@
-import { supabase } from '../supabase/supabaseClient.js';
+console.log("HEADER JS CARGADO");
+
+import { supabase } from 'supabase/supabaseClient.js';
 
 async function loadMenu() {
   const { data: categories } = await supabase
