@@ -1,4 +1,4 @@
 export const supabase = supabase.createClient(
-  'https://YOUR_PROJECT_ID.supabase.co',
-  'YOUR_PUBLIC_ANON_KEY'
+  'https://jwfesxzzbehzeytwcbgz.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3ZmVzeHp6YmVoemV5dHdjYmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc5Mjg2NDMsImV4cCI6MjA4MzUwNDY0M30.SLoar0LgTTOlkB2gVlJ-IU9YBh0uygqKVb1pBpKtBWo'
 );
