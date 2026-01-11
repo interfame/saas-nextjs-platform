@@ -1,25 +1,28 @@
-import { supabase } from '../supabase/supabaseClient.js';
+const supabase = window.supabase.createClient(
+  "https://jwfesxzzbehzeytwcbgz.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3ZmVzeHp6YmVoemV5dHdjYmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc5Mjg2NDMsImV4cCI6MjA4MzUwNDY0M30.SLoar0LgTTOlkB2gVlJ-IU9YBh0uygqKVb1pBpKtBWo"
+);
 
 async function loadMenu() {
-  const { data: categories } = await supabase
-    .from('menu_categories')
-    .select('id,title,menu_items(id,title,url)')
-    .order('order');
+  const { data, error } = await supabase
+    .from("menu_categories")
+    .select("title")
+    .order("position");
 
-  const ul = document.getElementById('dynamic-menu');
-  ul.innerHTML = '';
+  if (error) {
+    console.error(error);
+    return;
+  }
 
-  categories.forEach(cat => {
-    const li = document.createElement('li');
-    li.className = 'nav-item dropdown';
-    li.innerHTML = `<a class="nav-link dropbtn">${cat.title}</a>`;
-    const div = document.createElement('div');
-    div.className = 'dropdown-content';
-    cat.menu_items.forEach(item => {
-      div.innerHTML += `<a href="${item.url}">${item.title}</a>`;
-    });
-    li.appendChild(div);
-    ul.appendChild(li);
+  const ul = document.getElementById("dynamic-menu");
+  ul.innerHTML = "";
+
+  data.forEach(cat => {
+    ul.innerHTML += `
+      <li class="nav-item">
+        <a class="nav-link">${cat.title}</a>
+      </li>
+    `;
   });
 }
 
