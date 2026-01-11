@@ -25,4 +25,9 @@ async function loadMenu() {
   });
 }
 
+document.body.insertAdjacentHTML(
+  "afterbegin",
+  "<div style='color:red'>HEADER JS FUNCIONA</div>"
+);
+
 loadMenu();
